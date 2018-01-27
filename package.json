@@ -2,9 +2,9 @@
   "name": "gulp-template",
   "version": "1.0.0",
   "description": "Gulp Template",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "Test"
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
@@ -20,11 +20,23 @@
   },
   "homepage": "https://github.com/CristianSavin/Gulp-Template#readme",
   "devDependencies": {
+    "boostrap": "^2.0.0",
     "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-cache": "^1.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglifyjs": "^0.6.2"
   },
-  "scripts": {
-    "gulp": "gulp"
+  "dependencies": {
+    "bar": "file:app/libs",
+    "bootstrap": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-imagemin": "^4.1.0",
+    "imagemin-pngquant": "^5.0.1",
+    "jquery": "^3.3.1"
   }
 }

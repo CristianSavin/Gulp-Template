@@ -1,0 +1,27 @@
+$transition : 0.5
+
+@mixin flex
+	display: flex
+	align-items: center
+	justify-content: center
+	flex-wrap: wrap
+
+.container
+	height: 100vh
+	@include flex
+
+.starter-template
+	height: 100px
+	@include flex		
+
+.starter-template 
+	& p
+		display: block
+		width: 100%
+		text-align: center
+
+	& div
+		display: block 
+		width: 100%	
+		text-align: center 
+
