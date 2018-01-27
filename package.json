@@ -1,0 +1,30 @@
+{
+  "name": "gulp-template",
+  "version": "1.0.0",
+  "description": "Gulp Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianSavin/Gulp-Template.git"
+  },
+  "keywords": [
+    "Gulp"
+  ],
+  "author": "Cristian Savin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianSavin/Gulp-Template/issues"
+  },
+  "homepage": "https://github.com/CristianSavin/Gulp-Template#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "gulp": "gulp"
+  }
+}
